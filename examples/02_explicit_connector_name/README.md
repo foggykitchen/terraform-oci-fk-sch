@@ -21,7 +21,7 @@ Use this when you want:
 
 ```hcl
 module "sch" {
-  source = "git::https://github.com/foggykitchen/terraform-oci-fk-sch.git?ref=v0.1.0"
+  source = "git::https://github.com/foggykitchen/terraform-oci-fk-sch.git?ref=v0.2.0"
 
   name                   = "fk-stream-to-function"
   service_connector_name = "FoggyKitchenServiceConnector"
